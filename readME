@@ -1,0 +1,74 @@
+Contexte du Projet : Centre de Bien-être FitTrack
+Objectif
+
+Nous cherchons à concevoir une base de données efficace et bien structurée pour prendre en charge l'ensemble des fonctionnalités du Centre de Bien-être FitTrack, assurant une gestion optimale des données.
+
+Description Fonctionnelle
+
+La base de données est conçue pour répondre aux besoins d'un système de gestion de centre de fitness. Elle doit permettre la gestion efficace des données relatives aux départements (différentes zones d'entraînement), entraîneurs, membres, salles d'entraînement, abonnements, rendez-vous, suppléments, programmes d'entraînement et personnel administratif. Le système doit être fiable, sécurisé, évolutif, et garantir la qualité des données tout en optimisant les performances.
+
+Tables de la Base de Données :
+
+Extraire les tables à partir du schéma donné.
+
+Exercices :
+
+Opérations CRUD : Insérer un nouveau membre
+Insérez un nouveau membre nommé "Alex Johnson", né le 15 juillet 1990, de sexe masculin, avec le numéro de téléphone "1234567890".
+
+Instruction SELECT : Récupérer tous les départements
+Récupérez tous les départements avec leurs emplacements.
+
+Clause ORDER BY : Trier les membres par date de naissance
+Listez tous les membres, triés par date de naissance dans l'ordre croissant.
+
+Filtrer les membres uniques par sexe (DISTINCT)
+Récupérez tous les sexes des membres enregistrés, sans doublons.
+
+Clause LIMIT : Obtenir les 3 premiers entraîneurs
+Récupérez les trois premiers entraîneurs dans la table des entraîneurs.
+
+Clause WHERE : Membres nés après 2000
+Récupérez les informations des membres nés après l'année 2000.
+
+Opérateurs Logiques : Entraîneurs dans des départements spécifiques
+Récupérez les entraîneurs des départements "Musculation" et "Cardio".
+
+Opérateurs Spéciaux : Vérifier des plages de dates
+Listez les abonnements entre le 1er décembre et le 7 décembre 2024.
+
+Expressions Conditionnelles : Nommer les catégories d'âge des membres
+Ajoutez une colonne catégorisant les membres en "Junior", "Adulte", ou "Senior" selon leur âge.
+
+Fonctions d'Agrégation : Nombre total de rendez-vous
+Comptez le nombre total de rendez-vous d'entraînement enregistrés.
+
+COUNT avec GROUP BY : Nombre d'entraîneurs par département
+Comptez le nombre d'entraîneurs dans chaque département.
+
+AVG : Âge moyen des membres
+Calculez l'âge moyen des membres.
+
+MAX : Dernier rendez-vous
+Trouvez la date et l'heure du dernier rendez-vous enregistré.
+
+SUM : Total des abonnements par salle
+Calculez le total des abonnements pour chaque salle d'entraînement.
+
+Contraintes : Vérifier les membres sans e-mail
+Récupérez tous les membres dont le champ email est vide.
+
+Jointure : Liste des rendez-vous avec noms des entraîneurs et membres
+Récupérez les rendez-vous avec les noms des entraîneurs et des membres.
+
+DELETE : Supprimer les rendez-vous avant 2024
+Supprimez tous les rendez-vous programmés avant 2024.
+
+UPDATE : Modifier un département
+Changez le nom du département "Musculation" en "Force et Conditionnement".
+
+Clause HAVING : Membres par sexe avec au moins 2 entrées
+Listez les genres ayant au moins deux membres.
+
+Créer une vue : Abonnements actifs
+Créez une vue listant tous les abonnements en cours.
